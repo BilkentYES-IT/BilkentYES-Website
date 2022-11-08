@@ -343,6 +343,24 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 8px;
   background: rgba(255, 255, 255, 0.15);
 }
+#main .btn-btn-primary {
+  display: inline-block;
+  background: #1c3dfa;
+  padding: 6px 40px 8px 40px;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s;
+  position: relative;
+}
+#main .btn-btn-primary i {
+  font-size: 28px;
+  position: absolute;
+  right: 60px;
+  top: 15px;
+}
+#main .btn-btn-primary:hover{
+  background: #1c3dfa;
+}
 @media (min-width: 1024px) {
   #main {
     background-attachment: fixed;
